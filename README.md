@@ -51,49 +51,7 @@ Cases: -
 5)	With 10 min_samples_split
 6)	With 2 min_samples_split
 
-Tabulations: -
-Table 1: - 
-Train Data - 0 to 25000
-Cross validation Data - 20000 to 25000 
 
-ID	Features	n_estimators	criterion	min_samples_split	Accuracy	%
-1	2500	50	entropy	10	0.9968	99.68
-2	2500	100	entropy	10	0.9980	99.8
-3	2500	50	gini	10	0.9944	99.44
-4	2500	100	gini	10	0.9976	99.76
-5	5000	50	entropy	10	0.9982	99.82
-6	5000	100	entropy	10	0.9990	99.9
-7	5000	50	gini	10	0.9980	99.80
-8	5000	100	gini	10	0.9986	99.86
-
-
-
-
-
-
-
-
-Table 2: - 
-Train Data - 0 to 20000 (80%)
-Cross Validation Data - 20000 to 25000 (20%)
-
-ID	Features	n_estimators	criterion	min_samples_split	Accuracy	%
-1	2500	50	entropy	10	0.8434	84.34
-2	2500	100	entropy	10	0.8428	84.28
-3	2500	50	gini	10	0.8306	83.06
-4	2500	100	gini	10	0.8392	83.92
-5	5000	50	entropy	10	0.8371	83.71
-6	5000	100	entropy	10	0.8446	84.46
-7	5000	50	gini	10	0.8353	83.53
-8	5000	100	gini	10	0.8410	84.10
-
-Table 3: -
-Train Data - 0 to 20000 (80%)
-Cross Validation Data - 20000 to 25000 (20%)
-
-ID	Features	n_estimators	criterion	min_samples_split	Accuracy	%
-1	2500	100	entropy	2	0.8389	83.89
-2	2500	100	entropy	2	0.8411	84.11
 Metric used is f1_score(y_true, y_pred) from scikit. 
 Y_true =  true class
 Y_pred = predicted class
